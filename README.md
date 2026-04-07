@@ -30,7 +30,6 @@ ARCH=amd64
 PLATFORM=$(uname -s)_$ARCH
 
 curl -sLO "https://github.com/eksctl-io/eksctl/releases/latest/download/eksctl_$PLATFORM.tar.gz"
-# (Optional) Verify checksum
 curl -sL "https://github.com/eksctl-io/eksctl/releases/latest/download/eksctl_checksums.txt" | grep $PLATFORM | sha256sum –check
 tar -xzf eksctl_$PLATFORM.tar.gz -C /tmp && rm eksctl_$PLATFORM.tar.gz
 sudo install -m 0755 /tmp/eksctl /usr/local/bin && rm /tmp/eksctl
@@ -42,5 +41,4 @@ website url :    eksctl-io/eksctl: The official CLI for Amazon EKS
 1. eksctl version
 2. aws –version
 3. kubectl version
-
-   <img width="1176" height="263" alt="Screenshot 2026-04-04 171227" src="https://github.com/user-attachments/assets/f35041e9-b633-4710-a64f-7d23ff04c520" />
+ <img width="1176" height="263" alt="Screenshot 2026-04-04 171227" src="https://github.com/user-attachments/assets/f35041e9-b633-4710-a64f-7d23ff04c520" />
