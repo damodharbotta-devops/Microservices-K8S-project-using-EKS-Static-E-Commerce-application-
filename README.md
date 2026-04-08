@@ -74,7 +74,6 @@ sudo systemctl enable Jenkins
 sudo systemctl start Jenkins
 sudo systemctl status jenkins
 <img width="1909" height="931" alt="Screenshot 2026-04-06 114121" src="https://github.com/user-attachments/assets/0b9211a8-f021-4dd7-bda0-9c3be388dd34" />
-<img width="182" height="197" alt="Screenshot 2026-04-06 114202" src="https://github.com/user-attachments/assets/693ae552-0156-4ead-9ce4-58188ded8ed6" />
 <img width="1747" height="308" alt="Screenshot 2026-04-06 150459" src="https://github.com/user-attachments/assets/8219f5ee-7bc1-489d-b59b-aa99af6cb466" />
 <img width="1828" height="385" alt="Screenshot 2026-04-06 150538" src="https://github.com/user-attachments/assets/dd8f0467-18d5-4630-931a-9b7a0c8aa38f" />
 
